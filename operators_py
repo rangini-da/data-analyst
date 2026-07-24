@@ -1,0 +1,79 @@
+program1
+a=15
+b=2
+print ("a=", a)
+print ("b=", b)
+print ("A+B=", a+b)
+print ("A-B=", a-b)
+print ("A*B=", a*b)
+print ("A/B=", a/b)
+print ("A//B=", a//b)
+print ("A%B=", a%b)
+print ("A**B=", a**b)
+program2
+x=5
+y=10
+print ('x > y is ', x>y)
+print ('x < y is ', x<y)
+print ('x ==y is ', x==y)
+print ('x >=y is ', x>=y)
+print ('x <=y is ', x<=y)
+program3
+x=10
+y=5
+print ('x and y is ', x and y)
+print ('x or y is ', x or y)
+print ('not x is ', not x)
+program4
+a = 10
+b = 5
+c = a
+print ("Value of c:", c)
+b += a
+print ("Value of b after +=:", b)
+c -= a
+print ("Value of c after -=:", c)
+b *= a
+print ("Value of b after *=:", b)
+b /= a
+print ("Value of b after /=:", b)
+b //= 2
+print ("Value of b after //=:", b)
+b %= 3
+print ("Value of b after %=:", b)
+a **= 3
+print ("Value of a after **=:", a)
+program5
+a = 10 # 1010 in binary
+b = 5 # 0101 in binary
+result_and = a & b
+print ("Bitwise AND:", result_and)
+result_or = a | b
+print ("Bitwise OR:", result_or)
+result_xor = a ^ b
+print ("Bitwise XOR:", result_xor)
+result_not_a = ~a
+result_not_b = ~b
+print ("Bitwise NOT of a:", result_not_a)
+print ("Bitwise NOT of b:", result_not_b)
+result_left_shift = a << 1
+print ("Left Shift of a:", result_left_shift)
+result_right_shift = a >> 1
+print ("Right Shift of a:", result_right_shift)
+program6
+x='Hello python'
+y={1:'a',2:'b'}
+print ('H' in x)
+print ('hello' not in x)
+print (1 in y)
+print ('a' in y)
+program7
+x1 =5
+y1 =5
+x2= 'hello'
+y2= 'hi'
+x3= [ 1,2,3]
+y3= [1,2,3]
+print (x1 is not y1)
+print (x2 is y2)
+print (x3 is y3)
