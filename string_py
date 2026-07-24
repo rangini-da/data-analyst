@@ -1,0 +1,132 @@
+Funtion
+str1="good evening "
+str2=" WELCOME "
+str3=" I Am A B.E Student"
+a="1234"
+sp=" "
+print str1
+print ("Capital of str1=",str1.capitalize())
+print ("Center of str1=",str1.center(20,'*'))
+print ("Count of e in str1=",str1.count('e'))
+print ("Substring of str3=",str3.count("B.E",0,len(str3)))
+print ("Substring of str3=",str3.find("B.E",0,len(str3)))
+print ("Replace the B.E to ECE in str3=",str3.replace("B.E","E.C.E"))
+print ("Is alpha or not in str1=",str1.isalpha())
+print ("IS lower case str1=", str2.lower())
+print ("IS upper case str2=", str1.upper())
+print ("Space=",sp.isspace())
+print ("Space=", str1.isspace())
+print ("Length str1=", len(str1))
+print ("Title of str3=", str3.istitle())
+print ("Title of str2=", str2.istitle())
+print ("Lstrip in str3=", str3.lstrip())
+print ("Rstrip in str3=", str1.rstrip())
+print ("strip in str3=", str2.strip())
+print ("lower str2=", str2.lower())
+print ("upper str1=", str1.upper())
+print ("Swap str3=", str3.swapcase())
+print ("split str3=", str3.split())
+print ("Join str1 and str2=", str1.join(str2))
+print (' '.join (['hai','welcome','to','csc']))
+Embedding
+h1 = "CSC Computer Education"
+h2 = "Medavakkam Branch"
+msg = "Hi Welcome to {} and you have visited {}. ".format(h1, h2)
+print(msg)
+Formatting
+h1 = "Anigra Training Academy"
+h2 = "Medavakkam"
+msg = "Hi Welcome to" ,{h1}, "and you have visited", {h2}
+print(msg)
+Array program1
+from array import *
+print ("Array Elements are:")
+a=array('i',[1,2,3,4,5,6,9,8,7,33,11,12])
+print (a)
+program2
+print ("\n print particular element using index 2,5,-1:\n")
+print a[2]
+print a[5]
+print a[-1]
+program3
+Print ("\n Insert the array elements 13,14,15 in last position\n")
+a.append(13)
+print (a)
+a.append(14)
+print (a)
+a.append(15)
+print (a)
+program4
+print ("\n Insert the element to particular location 0,9,10:\n")
+a.insert(0,0)
+print (a)
+a.insert(9,16)
+print (a)
+a.insert(10,17)
+print (a)
+program5
+print ("\n Extending the array elements :\n")
+b=array('i',[21,22,23,24,25])
+print (b)
+a.extend(b)
+print (a)
+program6
+Print ("\ncreate the array by using list by Fromlist():\n")
+c= [100,200,300]
+print ("The list element is:",c)
+a.fromlist(c)
+print (a)
+program7
+print("\n remove the element 300 from array:\n")
+a.remove(300)
+print (a)
+program8
+from array import *
+print ("character array elemtents:")
+d=array('u',['a','b','c','d','e','f','g','h','i'])
+print (d)
+print ("\n Remove the last element using pop():")
+d.pop()
+print (d)
+d.pop()
+print (d)
+d.pop()
+print (d)
+program9
+a=array('i',[1,2,3,4,5,6,7,8,2,9,2,10,2,11])
+print ("\n\nThe array elements are",a)
+i1=a.index(1)
+print (" Index of 1:",i1)
+i2=a.index(3)
+print (" Index of 3:",i2)
+i3=a.index(11)
+print (" Index of 11:",i3)
+program10
+print (" \nArray Elements are:",a)
+a.reverse()
+print ("Reverse the array integer elements:",a)
+d.reverse()
+print ("Reverse the array characterelements:",d)
+program11
+cnt=a.count(2)
+print("\n\nnumber of occurence 2 in A array:")
+print ("count of 2=",cnt)
+program12
+from array import *
+print("\n\nConvert the array elements to string:")
+s = array('u', ['w', 'e', 'l', 'c', 'o', 'm', 'e'])
+print(s)
+byte_array = s.tobytes()
+string_result = byte_array.decode('utf-16')
+print(string_result) 
+program13
+print ("\n\nconverting Array element to list:")
+f=a.tolist()
+print (f)
+program14
+Print ("\n\n Append a string to char array :")
+d.reverse()
+print (d)
+d.fromstring(" alphabets")
+print (d)
+
