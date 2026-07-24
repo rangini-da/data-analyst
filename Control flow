@@ -1,0 +1,135 @@
+program1
+a=int(input("Enter the value for a:"))
+b=int(input("Enter the value for b:"))
+if a>b:
+ print("A is greater")
+if b>a:
+ print("B is greater")
+program2
+a=int(input("enter a number"))
+if a>=0:
+print("positive")
+else:
+ print("negative")
+program3
+a=input("Enter the value for a:")
+b=input("Enter the value for b:")
+c=input("Enter the value for c:")
+if a>b and a>c:
+ print("A is greater")
+elif b>c:
+ print("B is greater")
+else:
+ print("C is greater")
+program4
+mark=int(input("Enter ur mark:"))
+if mark>90 and mark<=100:
+ print("O grade")
+elif mark>80 and mark<=90:
+ print("A grade")
+elif mark>70 and mark<=80:
+ print("B grade")
+elif mark>60 and mark<=70:
+ print("C grade")
+elif mark>40 and mark<=60:
+ print("D Grade")
+else:
+ print("Fail")
+program5
+num=input("Enter the value for number:")
+if(num>=0):
+ if(num==0):
+ print("number is Zero")
+ else:
+ print("Positive number")
+else:
+ print("Negative number")
+program6
+for i in 'Computer':
+  print (i)
+program7
+digits={1,2,3,4,5,6,7,8}
+for i in digits:
+ print(i)
+else:
+ print("End of for loop")
+ print("no numbers left")
+program8
+for i in range(0,30,5):
+ print(i)
+program9
+num=[1,2,3,4,5,6,7,8,9,10]
+for i in range(len(num)):
+ print(num)
+program10
+i=0
+while i<=10:
+ print(i)
+ i=i+1
+program11
+i=1
+while i<=5:
+ print(i)
+ i=i+1
+else:
+ print("End of the loop")
+program12
+total = 0
+while True:
+ num = int(input("Enter a number (enter 0 to stop): "))
+ if num == 0:
+ break
+ total += num
+print("Sum of numbers:", total)
+program13
+correct_password = "asdf1234"
+while True:
+ password = input("Enter the password: ")
+ if password == correct_password:
+print("Access granted!")
+ break
+ else:
+ print("Incorrect password. Try again.")
+program14
+import random
+target_number = random.randint(1, 100)
+attempts = 0
+while True:
+ guess = int(input("Guess a number between 1 and 100: "))
+ attempts += 1
+ if guess < target_number:
+ print("Too low!")
+ elif guess > target_number:
+ print("Too high!")
+ else:
+ print (f"Congratulations! You guessed the number {target_number} in {attempts}
+attempts.")
+ break
+program15
+digits=[1,2,3,4,5,6,7,8,9,10]
+for i in digits:
+ print(i)
+ if i==5:
+ print ("Break the loop")
+ break
+else:
+ print ("items left")
+program16
+digits=[1,2,3,4,5,6,7,8,9,10]
+for i in digits:
+ print(i)
+ if i==5:
+ print ("unbreak the loop")
+ continue
+else:
+ print ("No items left")
+program17
+for val in "computer":
+ if val=="u":
+ continue
+ print(val)
+print ("End of loop")
+program18
+for i in range (1,10,2):
+ pass
+print(i)
