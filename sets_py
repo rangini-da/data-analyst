@@ -125,4 +125,12 @@ print ("Set Difference in a & b:",b-a)
 print ("Set Difference in a & b:",a.difference(b))
 print ("Set Symmetric Difference in a & b:",a^b)
 print ("Set Symmetric Difference in a & b:",a.symmetric_difference(b))
+Frozenset Syntax 
+frozen_fruits = frozenset(['apple', 'banana', 'orange']) 
+Program 1. Frozenset Operations 
+frozen_set1 = frozenset({1, 2, 3}) 
+frozen_set2 = frozenset({3, 4, 5}) 
+union_frozen = frozen_set1.union(frozen_set2) 
+intersection_frozen = frozen_set1.intersection(frozen_set2) 
+When to Use Sets vs. Frozensets: 
 
