@@ -1,0 +1,24 @@
+#program 1
+class Course: 
+  def __init__(self, crs, drtn): 
+    self.crs = crs 
+    self.drtn = drtn 
+  def crs_cov(self): 
+    pass 
+# Inheritance 
+class Adpp(Course): 
+  def crs_cov(self): 
+    return "C,C++, Python" 
+class Adjp(Course): 
+  def crs_cov(self): 
+    return "C,C++,Java,HTML" 
+# Creating objects 
+pp = Adpp("Python", "Developer") 
+jp = Adjp("Java", "Programmer") 
+# Polymorphism 
+def cc(course): 
+  return course.crs_cov() 
+print(cc(pp)) 
+print(cc(jp)) 
+
+completed python Oops
