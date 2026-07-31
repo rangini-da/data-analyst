@@ -6,14 +6,14 @@ column3 INT,
 column4 VARCHAR(100) 
 ); 
 Inserting Data 
-INSERT INTO table_name (id, name, age, department) 
+INSERT INTO employee_tbl (id, name, age, department) 
 VALUES (1, 'RCS', 30, 'CEO'); 
-INSERT INTO table_name (id, name, age, department) 
+INSERT INTO employee_tbl(id, name, age, department) 
 VALUES (2, 'SLK', 28, 'Marketing'), 
 (3, 'LOP', 35, 'Sales'), 
 (4, 'MJL', 32, 'Finance'); 
 To view the data in the table we need to type 
-Select * from table_name; 
+Select * from employee_tbl; 
 Select * from table_name where Id = 10; 
 Updating a data in the table 
 UPDATE table_name SET salary = 50000 WHERE id = 123;
