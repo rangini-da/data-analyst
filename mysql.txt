@@ -1,5 +1,5 @@
 To create a table  
-CREATE TABLE table_name ( 
+CREATE TABLE employee_tbl ( 
 column1 INT PRIMARY KEY, 
 column2 VARCHAR(50) NOT NULL, 
 column3 INT, 
@@ -16,9 +16,7 @@ To view the data in the table we need to type
 Select * from table_name; 
 Select * from table_name where Id = 10; 
 Updating a data in the table 
-UPDATE table_name 
-SET salary = 50000 
-WHERE id = 123;
+UPDATE table_name SET salary = 50000 WHERE id = 123;
 DELETE FROM table_name 
 WHERE id = 123; 
 number 
@@ -68,7 +66,7 @@ SET status = CONCAT(res, ' ', grade);
 TRIM 
 The TRIM() function removes leading or trailing spaces or specified characters from a 
 string. 
-SELECT TRIM('   CSC   ') AS trimmed_string; 
+SELECT TRIM('CSC') AS trimmed_string; 
 REPEAT 
 The REPEAT() function repeats a string a specified number of times. 
 SELECT REPEAT('Anigra ', 3) AS repeated_string; 
