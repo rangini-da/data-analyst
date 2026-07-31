@@ -14,10 +14,10 @@ VALUES (2, 'SLK', 28, 'Marketing'),
 (4, 'MJL', 32, 'Finance'); 
 To view the data in the table we need to type 
 Select * from employee_tbl; 
-Select * from table_name where Id = 10; 
+Select * from employee_tbl where Id = 10; 
 Updating a data in the table 
-UPDATE table_name SET salary = 50000 WHERE id = 123;
-DELETE FROM table_name 
+UPDATE employee_tble SET salary = 50000 WHERE id = 123;
+DELETE FROM employee_tbl 
 WHERE id = 123; 
 number 
 SELECT COUNT(*) AS total_sales FROM sales;
