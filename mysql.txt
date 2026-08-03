@@ -65,3 +65,5 @@ SELECT RIGHT('Anigra Training Academy',
 7) AS right_part; 
 
 mysql need to completed
+
+iam going to complete basic sql
