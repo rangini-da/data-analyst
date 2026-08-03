@@ -65,3 +65,5 @@ SELECT RIGHT('Anigra Training Academy',
 7) AS right_part; 
 
 basic mysql completed
+
+advanced version started
