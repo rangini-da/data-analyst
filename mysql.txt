@@ -64,4 +64,4 @@ The RIGHT() function extracts the specified number of characters from the end
 SELECT RIGHT('Anigra Training Academy', 
 7) AS right_part; 
 
-mysql completed
+basic mysql completed
