@@ -1,5 +1,5 @@
 Sum formula =SUM(C3:G3)
-Subraction =(C3-D3-E3-F3-G3)
+Subtractions =(C3-D3-E3-F3-G3)
 Muplication =(C3*D3)
 Divion =(C3/D3)
 1.FREEZING FIRST ROW 
