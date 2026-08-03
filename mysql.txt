@@ -63,7 +63,6 @@ SELECT LEFT('Anigra Training Academy',
 The RIGHT() function extracts the specified number of characters from the end 
 SELECT RIGHT('Anigra Training Academy', 
 7) AS right_part; 
-
 mysql need to completed
 
-iam going to complete basic sql
+advanced in mysql
